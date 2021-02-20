@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial Narrow, sans-serif;
+}
+body{
+    min-height: 1000px;
+    background: #fff;
+    transform: 1s;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+}
+header.sticky {
+    padding: 5px 100px;
+    background-color: #fff;
+    transition: 1s;
+    color: black;
+}
+header.sticky h1,
+header.sticky ul li a{
+    color: black;
+}
+header h1 {
+    font-weight: 300;
+    font-size: 2em;
+    letter-spacing: 2px;
+    color: #fff;
+}
+header ul{
+    list-style: none;
+    display: flex;
+}
+header ul li{
+    padding: 0 15px;
+    font-size: 15pt;
+}
+header ul li a{
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+#corpo{
+    width: 100%;
+    min-height: 100vh;
+    background: url('fundo.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#corpo h2{
+    font-size: 90px;
+    font-weight: 300;
+    color: #fff;
+}
+#corpo h2 span {
+    color: rgb(226, 137, 21);
+}

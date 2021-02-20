@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sua Melhor Viagem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Dumas <span>Hotel</span></h1>
+        <ul>
+            <li><a href="#corpo">Home</a></li>
+            <li><a href="#somos">Quem Somos</a></li>
+            <li><a href="#serviços">Serviços</a></li>
+            <li><a href="#praias">Algumas Praias</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </header>
+    <section id="corpo">
+        <h2>Prepare para a Melhor <br><span>Aventura</span> de Sempre</h2>
+    </section>
+    <section id="somos">
+        <h2></h2>
+    </section>
+    <footer id="rodape">
+        <p>RedneyMonteiro &copy; 2021</p>
+    </footer>
+    <script>
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header")
+            header.classList.toggle("sticky", scrollY > 0)
+        })
+    </script>
+    
+</body>
+</html>
