@@ -50,7 +50,7 @@ header ul li a{
 #corpo{
     width: 100%;
     min-height: 100vh;
-    background: url('fundo.jpg');
+    background: url('imagens/fundo.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
