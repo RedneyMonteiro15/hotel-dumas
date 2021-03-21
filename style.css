@@ -5,7 +5,6 @@
     font-family: Arial Narrow, sans-serif;
 }
 body{
-    min-height: 1000px;
     background: #fff;
     transform: 1s;
 }
@@ -65,3 +64,31 @@ header ul li a{
 #corpo h2 span {
     color: rgb(226, 137, 21);
 }
+#conteudo{
+    margin: 100px;
+    text-align: center;
+}
+#conteudo div{
+    margin: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 10px 10px rgba(226, 137, 21, 0.2);
+    padding: 50px;
+    border-radius: 50px;
+
+}
+#conteudo div h3{
+    color: #1C0051;
+    font-size: 30pt;
+    font-family: Candara;
+    padding: 20px;
+}
+#conteudo div p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
+/*
+#rodape{
+    color: white;
+    padding: 50px;
+}
+*/
