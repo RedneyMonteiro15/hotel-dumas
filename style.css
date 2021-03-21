@@ -86,9 +86,74 @@ header ul li a{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14pt;
 }
-/*
-#rodape{
-    color: white;
+
+#rodape
+{
     padding: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 11pt;
+}
+#rodape ul{
+    list-style: none;
+}
+#rodape ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+#rodape h4
+{
+    font-style: bold;
+    padding: 10px;
+}
+#redes
+{
+    margin-left: -180px;
+    text-align: center;
+
+}
+
+#redes ul,
+#desenvolvedor ul
+{
+    display: flex;
+}
+.icones ul li
+{
+    padding: 20px;
+    font-size: 20pt;
+}
+.icones ul li:hover
+{
+    color: blue;
+    cursor: pointer;
+}
+#contatos li
+{
+    padding-top: 5px;
+}
+#desenvolvedor p
+{
+    padding-left: 30px;
+}
+#desenvolvedor ul
+{
+    padding-left: 20px;
+}
+/*
+#contatos
+{
+}
+
+#redes ul
+{
+    display: inline;
+}
+
+#desenvolvedor
+{
+    float: right;
 }
 */
