@@ -4,10 +4,6 @@
     box-sizing: border-box;
     font-family: Arial Narrow, sans-serif;
 }
-body{
-    background: #fff;
-    transform: 1s;
-}
 header{
     position: fixed;
     top: 0;
@@ -17,11 +13,12 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 40px 100px;
+    transition: 1s;
 }
 header.sticky {
     padding: 5px 100px;
     background-color: #fff;
-    transition: 1s;
+    
     color: black;
 }
 header.sticky h1,
@@ -107,6 +104,7 @@ header ul li a{
 {
     font-style: bold;
     padding: 10px;
+    font-size: 14pt;
 }
 #redes
 {
@@ -125,8 +123,13 @@ header ul li a{
     padding: 20px;
     font-size: 20pt;
 }
+.icones ul li
+{
+    transition: 0.5s;
+}
 .icones ul li:hover
 {
+    transform: scale(1.3);
     color: blue;
     cursor: pointer;
 }
@@ -141,6 +144,14 @@ header ul li a{
 #desenvolvedor ul
 {
     padding-left: 20px;
+}
+.contate{
+    color: white;
+}
+.contate:hover
+{
+    color: #6b705c;
+    cursor: pointer;
 }
 /*
 #contatos
