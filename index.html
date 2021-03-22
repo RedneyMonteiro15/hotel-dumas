@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header>
-        <h1>Dumas <span>Hotel</span></h1>
+    <header id="cabecalho">
+        <a href="index.html"><img src="imagens/fundo3.png" alt="Dumas Hotel"></a>
         <ul>
-            <li><a href="#corpo">Home</a></li>
+            <li><a href="#cabecalho">Home</a></li>
             <li><a href="#somos">Quem Somos</a></li>
             <li><a href="#serviços">Serviços</a></li>
             <li><a href="#praias">Algumas Praias</a></li>
@@ -60,13 +60,6 @@
                 <li class="whats"><i class="fa fa-whatsapp" aria-hidden="true"></i></li>
             </ul>
         </div>
-    </footer>
-    <script>
-        window.addEventListener("scroll", function(){
-            var header = document.querySelector("header")
-            header.classList.toggle("sticky", scrollY > 0)
-        })
-    </script>
-    
+    </footer>   
 </body>
 </html>
