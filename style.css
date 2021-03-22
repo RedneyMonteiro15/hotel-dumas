@@ -18,7 +18,6 @@ header{
 header.sticky {
     padding: 5px 100px;
     background-color: #fff;
-    
     color: black;
 }
 header.sticky h1,
