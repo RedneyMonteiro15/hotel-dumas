@@ -34,9 +34,30 @@ header ul li a{
     min-height: 100vh;
     background: url('imagens/fundo.jpg');
     background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+}
+#corpo div
+{
+    position: relative;
+    top: 180px;
+    text-align: center;
+}
+#corpo input
+{
+    font-size: 15pt;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgb(226, 137, 21);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+}
+#corpo input:hover
+{
+    background-color: white;
+    color: rgb(226, 137, 21);
 }
 #corpo h2{
     font-size: 90px;
