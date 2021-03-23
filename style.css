@@ -6,7 +6,7 @@
 }
 header{
     position: absolute;
-    top: -80px;
+    top: -100px;
     left: 0;
     width: 100%;
     display: flex;
@@ -53,6 +53,7 @@ header ul li a{
     border-radius: 50px;
     cursor: pointer;
     transition: 1s;
+    font-style: bold;
 }
 #corpo input:hover
 {
@@ -60,7 +61,7 @@ header ul li a{
     color: rgb(226, 137, 21);
 }
 #corpo h2{
-    font-size: 90px;
+    font-size: 80px;
     font-weight: 300;
     color: #fff;
 }
