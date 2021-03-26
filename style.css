@@ -53,6 +53,7 @@ header ul li a{
     border-radius: 50px;
     cursor: pointer;
     transition: 1s;
+    outline: none;
     font-style: bold;
 }
 #corpo input:hover
@@ -90,7 +91,39 @@ header ul li a{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14pt;
 }
-
+#servicos
+{
+    display: flex;
+    text-align: center;
+    color: white;
+    margin-left: 90px;
+}
+.preco
+{
+    width: 350px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    margin: 20px;
+    background-color: #3E3A71;
+    transition: 1s;
+    cursor: pointer;
+    letter-spacing: px;
+}
+.preco h3
+{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.preco:hover
+{
+    transform: scale(1.01);
+}
+.preco p
+{
+    font-size: 12pt;
+}
 #rodape
 {
     padding: 50px;
@@ -183,16 +216,3 @@ header ul li a{
     color: #6b705c;
     cursor: pointer;
 }
-/*
-#contatos
-{
-}
-#redes ul
-{
-    display: inline;
-}
-#desenvolvedor
-{
-    float: right;
-}
-*/
