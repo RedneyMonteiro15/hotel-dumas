@@ -70,16 +70,16 @@ header ul li a{
     color: rgb(226, 137, 21);
 }
 #conteudo{
-    display: flex;
-    padding: 100px;
+    margin: 200px;
     text-align: center;
     color: white;
 }
 #conteudo div{
+    border-radius: 20px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     box-shadow: 10px 10px 10px rgba(0,0,0, 0.4);
     padding: 50px;
-    background-color: #fca311;
+    background-color: #3E3A71;
     padding: 100px;
 }
 #conteudo div h3{
@@ -93,20 +93,25 @@ header ul li a{
 }
 #servicos
 {
-    display: flex;
     text-align: center;
-    color: white;
-    margin-left: 90px;
 }
-.preco
+.banner{
+    color: #3E3A71;
+    font-size: 25pt;
+}
+#servicos .preco{
+    display: flex;
+    margin: 30px;
+    margin-left: 80px;
+}
+.preco div
 {
     width: 350px;
     border: 1px solid rgba(0,0,0,0.2);
     border-radius: 50px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    color: black;
     padding: 50px;
     margin: 20px;
-    background-color: #3E3A71;
     transition: 1s;
     cursor: pointer;
     letter-spacing: px;
@@ -116,9 +121,9 @@ header ul li a{
     font-size: 40px;
     padding-bottom: 30px;
 }
-.preco:hover
+.preco div:hover
 {
-    transform: scale(1.01);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 .preco p
 {
