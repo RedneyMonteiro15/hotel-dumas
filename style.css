@@ -19,6 +19,7 @@ header{
 header ul{
     list-style: none;
     display: flex;
+    margin-right: 20px;
 }
 header ul li{
     padding: 0 15px;
@@ -28,6 +29,15 @@ header ul li a{
     color: #fff;
     text-decoration: none;
     letter-spacing: 2px;
+}
+header div{
+    display: flex;
+}
+header div i{
+    color: white;
+    transform: scale(1.5);
+    cursor: pointer;
+    margin-top: 4px;
 }
 #corpo{
     width: 100%;
